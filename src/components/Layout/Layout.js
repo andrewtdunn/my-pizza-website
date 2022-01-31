@@ -7,7 +7,7 @@ function Layout({children}) {
     <div className={styles.container}>
       <Head>
         <title>Pizza Shop</title>
-        <link ref="icon" href="./favicon.ico"/>
+        <link href="./favicon.ico"/>
       </Head>
 
       <main className={styles.main}>

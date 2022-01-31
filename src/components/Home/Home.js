@@ -3,7 +3,7 @@ import styles from './Home.module.css'
 import Link from 'next/link'
 import { useState } from 'react'
 
-export default function home() {
+export default function Home() {
   const pizzas = [
     { 
       id: '1',
@@ -88,7 +88,7 @@ export default function home() {
         {filteredPizzas.length < 1 ? 
           (
             <div className={styles.nopeContainer}>
-              There is no pizza or topping with '{keyword}'.
+              There is no pizza or topping with &apos;{keyword}&apos;.
             </div>
           ) 
           :
