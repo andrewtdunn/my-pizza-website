@@ -104,7 +104,7 @@ export default function Home() {
                     <div className={styles.pizzaText}>
                       <p className={styles.pizzaHeader}>{pizza.name}</p>
                       <p className={styles.pizzaToppings}>{pizza.toppings.map(topping => topping).join(", ")}</p>
-                      <p className={styles.pizzaPrice}>{pizza.price}</p>
+                      <p className={styles.pizzaPrice}>€ {pizza.price}</p>
                     </div>
                   </div>
                 )
