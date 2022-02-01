@@ -11,7 +11,7 @@ export default function PizzaShop({pizzas}) {
 
 
 export const getStaticProps = async ({params}) => {
-  const res = await fetch('http://127.0.0.1:8000/pizza/')
+  const res = await fetch('https://greasy-andys.herokuapp.com/pizza/')
   const pizzas = await res.json()
   
   return {
