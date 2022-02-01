@@ -6,7 +6,7 @@ function Layout({children}) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Greasy Andy's</title>
+        <title>Greasy Andy&apos;s</title>
         <link href="./favicon.ico"/>
       </Head>
 
