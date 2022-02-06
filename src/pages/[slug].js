@@ -40,7 +40,7 @@ export default function Pizza({pizza, otherPizzas}) {
 
 export const getStaticPaths = async () => {
 
-  const res = await fetch('https://cheesy-andys.herokuapp.com/pizza/')
+  const res = await fetch('https://greasy-andys.herokuapp.com/pizza/')
   const pizzas = await res.json()
 
   const paths = pizzas.map(
