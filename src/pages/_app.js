@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
             <a>
               <div className={styles.brandPizza}>
                 <img src="/assets/images/pizza.svg" alt="brand" />
-                <p className="logo-text">Greasy Andy&apos;s</p>
+                <p className="logo-text">Cheesy Andy&apos;s</p>
               </div>
             </a>
           </Link>
