@@ -56,7 +56,7 @@ export const getStaticPaths = async () => {
 }
 
 export const getStaticProps = async ({params}) => {
-  const res = await fetch('https://cheesy-andys.herokuapp.com/pizza/')
+  const res = await fetch('https://greasy-andys.herokuapp.com/pizza/')
   const pizzas = await res.json()
 
   const pizza = pizzas.filter(pizza => pizza.slug.includes(params.slug))
